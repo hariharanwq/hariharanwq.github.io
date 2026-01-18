@@ -4,67 +4,82 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Hariharan S | DevOps Engineer</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header id="hero">
-  <h1>Hi, I'm <span>Hariharan S</span></h1>
-  <p>Cloud & DevOps Engineer</p>
-  <a href="assets/Hariharan_Resume.pdf" class="btn" target="_blank">Download Resume</a>
-</header>
+<!-- HERO -->
+<section class="hero">
+  <h1>Hi, I'm <span>Hariharan</span></h1>
+  <h2>Cloud & DevOps Engineer</h2>
+  <p>Building scalable, reliable & automated cloud systems</p>
 
-<section id="about">
-  <h2>About Me</h2>
+  <div class="hero-buttons">
+    <a href="assets/Hariharan_Resume.pdf" target="_blank" class="btn primary">Resume</a>
+    <a href="https://www.linkedin.com/in/hariharanwq" target="_blank" class="btn secondary">LinkedIn</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section">
+  <h3>About Me</h3>
   <p>
-    Experienced DevOps Engineer specializing in cloud infrastructure, CI/CD, automation, and container orchestration.
-    Skilled in AWS, GCP, Kubernetes, Docker, Jenkins, and monitoring systems.
+    DevOps Engineer with 3+ years of experience in cloud infrastructure,
+    CI/CD pipelines, Kubernetes, monitoring, and automation.
+    Passionate about building high-availability systems.
   </p>
 </section>
 
-<section id="skills">
-  <h2>Skills</h2>
-  <ul class="skills-list">
-    <li>GCP & AWS</li>
-    <li>Kubernetes & Docker</li>
-    <li>CI/CD Pipelines (Jenkins)</li>
-    <li>Linux & Bash</li>
-    <li>Ansible & Automation</li>
-    <li>Monitoring (Grafana / Prometheus)</li>
-  </ul>
-</section>
-
-<section id="experience">
-  <h2>Experience</h2>
-  <div class="job">
-    <h3>DevOps Engineer</h3>
-    <p><strong>Apptivo Software Pvt. Ltd</strong> | 2022 — Present</p>
-    <ul>
-      <li>Managed cloud infrastructure and GKE clusters</li>
-      <li>Built automated Jenkins CI/CD pipelines</li>
-      <li>Configured monitoring with Grafana, New Relic</li>
-    </ul>
+<!-- SKILLS -->
+<section class="section">
+  <h3>Skills</h3>
+  <div class="cards">
+    <div class="card blue">GCP / AWS</div>
+    <div class="card pink">Kubernetes</div>
+    <div class="card purple">Docker</div>
+    <div class="card green">Jenkins</div>
+    <div class="card orange">Linux</div>
+    <div class="card teal">Grafana</div>
   </div>
 </section>
 
-<section id="projects">
-  <h2>Projects / Clients</h2>
-  <div class="project">
-    <p><strong>CRM Dashboard</strong></p>
-  </div>
-  <div class="project">
-    <p><strong>Elasticsearch Migration</strong></p>
+<!-- EXPERIENCE -->
+<section class="section">
+  <h3>Experience</h3>
+  <div class="timeline">
+    <div class="timeline-card">
+      <h4>Junior DevOps Engineer</h4>
+      <span>Apptivo Software Pvt Ltd | 2022 – Present</span>
+      <ul>
+        <li>Managed GCP & Kubernetes production workloads</li>
+        <li>Built Jenkins CI/CD pipelines</li>
+        <li>Monitoring using Grafana & New Relic</li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<section id="contact">
-  <h2>Contact Me</h2>
-  <p>Email: <a href="mailto:hariharanwq@gmail.com">hariharanwq@gmail.com</a></p>
-  <p>LinkedIn: <a href="https://www.linkedin.com/in/hariharanwq" target="_blank">linkedin.com/in/hariharanwq</a></p>
-  <p>GitHub: <a href="https://github.com/<yourusername>" target="_blank">github.com/<yourusername></a></p>
+<!-- PROJECTS -->
+<section class="section">
+  <h3>Projects</h3>
+  <div class="project-grid">
+    <div class="project-card">
+      <h4>CI/CD Automation</h4>
+      <p>Reduced deployment time by 40% using Jenkins pipelines</p>
+    </div>
+    <div class="project-card">
+      <h4>Elasticsearch Migration</h4>
+      <p>Snapshot & restore automation across clusters</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact">
+  <h3>Contact</h3>
+  <p>📧 hariharanwq@gmail.com</p>
+  <p>📍 Madurai, India</p>
 </section>
 
 <footer>
